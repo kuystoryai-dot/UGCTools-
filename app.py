@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # Konfigurasi API
-genai.configure(AIzaSyDObUlzZU4IxP0CTjZIkut1qiZslRoJgnk"
+genai.configure(AIzaSyDObUlzZU4IxP0CTjZIkut1qiZslRoJgnk") # Pastikan API Key lu tetap aman
 
 st.set_page_config(page_title="UGC PRO AI - Photo & Script", layout="centered")
 
