@@ -17,7 +17,7 @@ st.markdown("""
 # Ambil di: aistudio.google.com
 API_KEY = "AIzaSyDObUlzZU4IxP0CTjZIkut1qiZslRoJgnk"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash'). # Model Nano Banana
+model =genai.GenerativeModel('gemini-1.5-flash'). # Model Nano Banana
 
 # 3. Sidebar Menu
 st.sidebar.title("🛠️ UGC Tool Menu")
